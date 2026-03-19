@@ -3,6 +3,7 @@
 import Nav from '../components/Nav';
 import Hero from '../components/Hero';
 import Skills from '../components/Skills';
+import Experience from '../components/Experience'; // Added Experience
 import Projects from '../components/Projects';
 import Academics from '../components/Academics';
 import Awards from '../components/Awards';
@@ -19,6 +20,8 @@ export default function Page() {
         <Hero />
         <hr className="section-divider" />
         <Skills />
+        <hr className="section-divider" />
+        <Experience /> {/* New Section */}
         <hr className="section-divider" />
         <Projects />
         <hr className="section-divider" />

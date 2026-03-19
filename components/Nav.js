@@ -2,14 +2,15 @@
 import { useState, useEffect } from 'react';
 
 const links = [
-  { label: 'About',    href: '#about' },
-  { label: 'Skills',   href: '#skills' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Academics',href: '#academics' },
-  { label: 'Awards',   href: '#awards' },
-  { label: 'CTF',      href: '#ctf' },
-  { label: 'More',     href: '#leadership' },
-  { label: 'Contact',  href: '#contact' },
+  { label: 'About',     href: '#about' },
+  { label: 'Skills',    href: '#skills' },
+  { label: 'Exp',       href: '#experience' }, // Added Experience link
+  { label: 'Projects',  href: '#projects' },
+  { label: 'Academics', href: '#academics' },
+  { label: 'Awards',    href: '#awards' },
+  { label: 'CTF',       href: '#ctf' },
+  { label: 'More',      href: '#leadership' },
+  { label: 'Contact',   href: '#contact' },
 ];
 
 export default function Nav() {
