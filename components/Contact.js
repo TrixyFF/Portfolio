@@ -12,7 +12,7 @@ export default function Contact() {
         <div className="flex flex-col items-center gap-6 pt-4">
           {/* Email Button */}
           <a
-            href="mailto:your-email@example.com" 
+            href="mailto:trixyfaurefield@gmail.com" 
             className="border border-accent text-accent px-8 py-4 rounded hover:bg-accent-dim transition-colors font-mono tracking-wider"
           >
             Initialize_Contact
@@ -29,7 +29,7 @@ export default function Contact() {
               [ GitHub ]
             </a>
             <a 
-              href="https://linkedin.com/in/your-linkedin-here" 
+              href="https://www.linkedin.com/in/trixy-faure-field" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-zinc-500 hover:text-accent transition-colors"
