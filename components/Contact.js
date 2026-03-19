@@ -15,7 +15,7 @@ export default function Contact() {
             href="mailto:trixyfaurefield@gmail.com" 
             className="border border-accent text-accent px-8 py-4 rounded hover:bg-accent-dim transition-colors font-mono tracking-wider"
           >
-            Initialize_Contact
+            My Contact Email
           </a>
 
           {/* Social Links */}
@@ -26,15 +26,15 @@ export default function Contact() {
               rel="noopener noreferrer" 
               className="text-zinc-500 hover:text-accent transition-colors"
             >
-              [ GitHub ]
+              [ My GitHub ]
             </a>
             <a 
-              href="https://www.linkedin.com/in/trixy-faure-field" 
+              href="https://www.linkedin.com/in/trixy-faure-field/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-zinc-500 hover:text-accent transition-colors"
             >
-              [ LinkedIn ]
+              [ My LinkedIn ]
             </a>
           </div>
         </div>
